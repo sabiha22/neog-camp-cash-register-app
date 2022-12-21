@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description">
+            Enter bill amount and cash given
+        </p>
+        
+            <label class="input-label" for="bill-amount">Bill Amount
+                <input class="input" id="bill-amount" type="text"/>
+            </label>         
+        
+        <!--<button>Next</button>!-->
+        
+            <label class="input-label" for="cash-given">Cash Given
+                <input class="input" id="cash-given" type="text"/>
+            </label>
+            
+        <button id="check-button">Check</button>
+        <p id="error-message"></p>
+        <table class="change-table">
+            <caption>Return Change</caption>
+            <tr>
+                <th>No of notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <div class="footer">
+            <a href="https://github.com/sabiha22"><img src="assets/github.svg"  class="footer_icon"></a>
+            <a href="https://www.linkedin.com/in/sabiha-p/"><img src="assets/linkedin.svg" class="footer_icon"></a>
+            <a href="https://twitter.com/stuck_here_"><img src="assets/twitter.png"  class="footer_icon"></a>
+            <a href=""><img src="assets/person.png"  class="footer_icon"></a>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
